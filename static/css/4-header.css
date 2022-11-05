@@ -1,0 +1,201 @@
+@property --offset {
+  syntax: '<length>';
+  inherits: false;
+  initial-value: 0px;
+}
+
+#main-menu {
+  padding: 14px 0;
+  position: relative;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+#main-menu .upper-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#main-menu .logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+#main-menu .logo-wording {
+  display: inline-block;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+#main-menu .logo-symbol {
+  margin-right: 10px;
+  position: relative;
+  width: 50px;
+  height: 35px;
+  color: transparent;
+  stroke: var(--color);
+}
+
+#main-menu ul {
+  margin: 14px 0 0;
+  padding: 0;
+  display: flex;
+  white-space: nowrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#main-menu ul li {
+  list-style-type: none;
+}
+
+#main-menu ul li a {
+  text-decoration: underline 0.15em transparent;
+  text-underline-offset: var(--offset, 0.2em);
+  transition: --offset 300ms, text-decoration-color 300ms;
+}
+
+#main-menu ul li.active a {
+  color: var(--primary);
+}
+
+#main-menu ul li.active a,
+#main-menu ul li a:focus,
+#main-menu ul li a:hover {
+  text-decoration-color: var(--primary);
+  --offset: 0.4em;
+}
+
+@supports not (background: paint(something)) {
+  #main-menu ul li a {
+    transition: text-underline-offset 400ms, text-decoration-color 400ms;
+  }
+  
+  #main-menu ul li a:hover,
+  #main-menu ul li a:focus {
+    text-underline-offset: 0.4em;
+  }
+}
+
+#main-menu .header-button {
+  position: relative;
+  color: black;
+  display: flex;
+  padding: 0;
+  border-width: 0;
+  text-decoration: none;
+  cursor: pointer;
+  background: none;
+}
+
+#main-menu .header-button svg {
+  width: 35px;
+  height: 35px;
+}
+
+[data-theme="dark"] #main-menu .header-button {
+  color: white;
+}
+
+#main-menu .header-button:hover {
+  color: var(--primary);
+}
+
+#menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  margin: 0 0 0 16px;
+  padding: 0;
+  width: fit-content;
+  height: fit-content;
+}
+
+#menu-toggle span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  margin-bottom: 5px;
+  position: relative;
+  background: var(--link);
+  border-radius: 3px;
+}
+
+#menu-toggle span:last-child {
+  margin: 0;
+}
+
+#close-side-menu {
+  display: none;
+  color: var(--link);
+  background: none;
+  border: none;
+  position: absolute;
+  right: 26px;
+  top: 26px;
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+#close-side-menu svg {
+  width: 20px;
+  height: 20px;
+}
+
+.right-controls {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  #menu-toggle,
+  #close-side-menu {
+    display: block;
+  }
+
+  #main-menu .inner-wrapper {
+    position: fixed;
+    z-index: 1;
+    background-color: var(--background-color);
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: 70%;
+    max-width: 300px;
+    box-shadow: -2px 2px 4px 0 rgb(0 0 0 / 20%);
+    padding: 24px;
+    transition: right ease-in-out 0.3s;
+  }
+
+  #main-menu .inner-wrapper.open {
+    right: 0;
+  }
+
+  #main-menu .logo-wording {
+    font-size: 18px;
+  }
+
+  #main-menu .logo-symbol {
+    width: 40px;
+    height: 28px;
+  }
+
+  #main-menu .header-button svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  #main-menu ul {
+    margin: 0;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #main-menu ul li {
+    margin-bottom: 24px;
+  }
+}

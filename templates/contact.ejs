@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="<%= lang %>">
+
+<head>
+  <%- include('head'); %>
+  <style>
+    h2 {
+      margin: 20px 0 0;
+    }
+  </style>
+</head>
+
+<body>
+  <%- include('header'); %>
+  <div class="red banner-quote bg bg4">
+    <div class="main-wrapper">"There's a lot of opportunity to become part of it. I hope they will become involved with it, in the process of how we put this together. A trip to our office might be enlightening. I'll be showing them what we're doing, how we're doing it"<span>— Frank Gehry</span></a>
+    </div>
+  </div>
+  <div class="ochre banner-quote">
+    <div class="main-wrapper">
+      <div class="two-columns-slide">
+        <div>
+          <h2>Ben Morton Wright</h2>
+          <a href="mailto:b.mw@globalphilanthropic.com">b.mw@globalphilanthropic.com</a><br />
+          <a href="tel:07813321092">+44 07 8132 1092</a>
+        </div>
+        <div>
+          <h2>Anthony Wilkinson</h2>
+          <a href="mailto:anthony@wimblendonconcerthall.co.uk">anthony@wimblendonconcerthall.co.uk</a><br />
+          <a href="tel:07813321092">+44 20 8946 5078</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main-wrapper">
+    <%- content %>
+  </div>
+  <%- include('footer'); %>
+</body>
+
+</html>

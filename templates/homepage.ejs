@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="<%= lang %>">
+<head>
+  <%- include('head'); %>
+  <style>
+    .hero {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-height: 500px;
+      min-height: 350px;
+      overflow: hidden;
+    }
+    .hero picture::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-color: black;
+      opacity: 0.4;
+    }
+    .hero .image {
+      object-fit: cover;
+      min-height: 350px;
+    }
+    .hero-content {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 16px;
+    }
+    .hero-content h2 {
+      color: white;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .hero-content a {
+      padding: 16px 32px;
+    }
+  </style>
+</head>
+<body>
+  <%- include('header'); %>
+  <div class="hero">
+    <picture>
+      <source media="(min-width: 769px)" type="image/webp" srcset="/home/images/hero.webp" />
+      <source media="(min-width: 769px)" type="image/jpeg" srcset="/home/images/hero.jpg" />
+      <source media="(min-width: 320px)" type="image/webp" srcset="/home/images/hero-mobile.webp" />
+      <source media="(min-width: 320px)" type="image/jpeg" srcset="/home/images/hero-mobile.jpg" />
+      <img class="image" width="100%" src="/home/images/hero.jpg" alt="Frank Gehry with model">
+    </picture>
+    <div class="hero-content">
+      <h2>Freelance Senior Content Manager, Editor and Writer</h2>
+      <a role="button" href="https://calendly.com/tuesdaygutz/30min" target="_blank">Book a discovery call</a>
+    </div>
+  </div>
+  <%- content %>
+  <%- include('footer'); %>
+</body>
+</html>

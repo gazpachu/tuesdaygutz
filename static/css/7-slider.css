@@ -1,0 +1,42 @@
+.slider {
+  overflow-x: scroll;
+  width: 100%;
+  white-space: nowrap;
+  position: relative;
+}
+
+.slider:after {
+  content: '';
+  background: url(/building/images/scroll-icon.png) no-repeat center;
+  background-size: contain;
+  height: 80px;
+  width: 80px;
+  display: block;
+  top: 30px;
+  left: 30px;
+  position: absolute;
+  z-index: 1;
+  animation-name: scroll-animation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes scroll-animation {
+  0% { left: 30px; }
+  50% { left: 20px; }
+  100% { left: 30px; }
+}
+
+.slider div {
+  display: inline-block;
+  width: 100%;
+  max-width: 600px;
+  margin-right: 42px;
+}
+
+@media (min-width: 769px) {
+  .slider:after {
+    height: 100px;
+    width: 100px;
+  }
+}

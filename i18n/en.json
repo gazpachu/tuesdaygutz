@@ -1,0 +1,15 @@
+{
+  "site_name": "Tuesday Gutierrez",
+  "site_description": "Senior Content Manager",
+  "date_format": "en-GB",
+  "categories": {
+    "all": "All Posts",
+    "news": "News"
+  },
+  "blog": {
+    "listen_story": "Listen to this story",
+    "subscribe": "Receive the stories by email.<br />No spam or ads. Promise! &#128077;<br />You can unsubscribe anytime",
+    "subscribe_button": "Subscribe to the news",
+    "category": "Category"
+  }
+}

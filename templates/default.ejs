@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="<%= lang %>">
+  <head>
+    <%- include('head'); %>
+    <style>
+      .two-columns-slide blockquote {
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+      .banner-quote {
+        margin-bottom: 48px;
+      }
+    </style>
+  </head>
+  <body>
+    <%- include('header'); %>
+    <% if (frontmatter.quote) { %>
+      <div class="banner-quote">
+        <div class="main-wrapper">
+          <%= frontmatter.quote %>
+          <span>- <%= frontmatter.quote_author %></span>
+        </div>
+      </div>
+    <% } %>
+    <% if (frontmatter.cover) { %>
+      <picture>
+        <source srcset="<%= imagePath.replace('.jpg', '.webp') %>" type="image/webp">
+        <source srcset="<%= imagePath %>" type="image/jpeg">
+        <img class="image" src="<%= imagePath %>" alt="<%= frontmatter.title %>" width="100%" height="500">
+      </picture>
+    <% } %>
+    <div class="main-wrapper page">
+      <div class="content">
+        <% if (!frontmatter.shouldHideTitle) { %>
+          <h1><%= frontmatter.title %></h1>
+        <% } %>
+        <%- content %>
+      </div>
+    </div>
+    <%- include('footer'); %>
+  </body>
+</html>
