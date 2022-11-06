@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="<%= lang %>">
+<head>
+  <%- include('head'); %>
+</head>
+<body>
+  <%- include('header'); %>
+  <picture>
+    <source media="(min-width: 769px)" type="image/webp" srcset="/about/images/hero.webp" />
+    <source media="(min-width: 769px)" type="image/jpeg" srcset="/about/images/hero.jpg" />
+    <source media="(min-width: 320px)" type="image/webp" srcset="/about/images/hero-mobile.webp" />
+    <source media="(min-width: 320px)" type="image/jpeg" srcset="/about/images/hero-mobile.jpg" />
+    <img class="image" width="100%" src="/about/images/hero.jpg" alt="Tuesday Gutierrez about image">
+  </picture>
+  <%- content %>
+  <%- include('footer'); %>
+</body>
+</html>

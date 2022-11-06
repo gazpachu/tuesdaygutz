@@ -1,31 +1,37 @@
-@property --offset {
-  syntax: '<length>';
-  inherits: false;
-  initial-value: 0px;
-}
-
 #main-menu {
   padding: 14px 0;
   position: relative;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 
-#main-menu .upper-wrapper {
+#main-menu .wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 #main-menu .logo {
-  display: flex;
-  align-items: center;
   text-decoration: none;
+}
+
+#main-menu .logo:before {
+  content: 'TG';
+  border-radius: 6px;
+  background-color: var(--primary);
+  width: 32px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 19px;
+  color: white;
 }
 
 #main-menu .logo-wording {
   display: inline-block;
   letter-spacing: 0;
   margin: 0;
+  font-size: 19px;
 }
 
 #main-menu .logo-symbol {
@@ -38,45 +44,26 @@
 }
 
 #main-menu ul {
-  margin: 14px 0 0;
+  margin: 0;
   padding: 0;
-  display: flex;
-  white-space: nowrap;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 24px;
 }
 
 #main-menu ul li {
   list-style-type: none;
+  margin: 0;
 }
 
 #main-menu ul li a {
-  text-decoration: underline 0.15em transparent;
-  text-underline-offset: var(--offset, 0.2em);
-  transition: --offset 300ms, text-decoration-color 300ms;
-}
-
-#main-menu ul li.active a {
-  color: var(--primary);
+  text-decoration: none;
 }
 
 #main-menu ul li.active a,
 #main-menu ul li a:focus,
 #main-menu ul li a:hover {
-  text-decoration-color: var(--primary);
-  --offset: 0.4em;
-}
-
-@supports not (background: paint(something)) {
-  #main-menu ul li a {
-    transition: text-underline-offset 400ms, text-decoration-color 400ms;
-  }
-  
-  #main-menu ul li a:hover,
-  #main-menu ul li a:focus {
-    text-underline-offset: 0.4em;
-  }
+  color: var(--primary);
 }
 
 #main-menu .header-button {
@@ -91,8 +78,8 @@
 }
 
 #main-menu .header-button svg {
-  width: 35px;
-  height: 35px;
+  width: 20px;
+  height: 20px;
 }
 
 [data-theme="dark"] #main-menu .header-button {
@@ -157,7 +144,7 @@
     display: block;
   }
 
-  #main-menu .inner-wrapper {
+  #main-menu #side-menu {
     position: fixed;
     z-index: 1;
     background-color: var(--background-color);
@@ -171,12 +158,8 @@
     transition: right ease-in-out 0.3s;
   }
 
-  #main-menu .inner-wrapper.open {
+  #main-menu #side-menu.open {
     right: 0;
-  }
-
-  #main-menu .logo-wording {
-    font-size: 18px;
   }
 
   #main-menu .logo-symbol {
@@ -184,15 +167,13 @@
     height: 28px;
   }
 
-  #main-menu .header-button svg {
-    width: 20px;
-    height: 20px;
-  }
-
   #main-menu ul {
-    margin: 0;
     flex-direction: column;
     align-items: flex-start;
+    display: flex;
+    white-space: nowrap;
+    justify-content: space-between;
+    grid-gap: 0;
   }
 
   #main-menu ul li {
