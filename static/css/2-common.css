@@ -26,6 +26,15 @@ html {
   padding: 0;
 }
 
+.page-header {
+  background-color: var(--banner-background-color);
+  text-align: center;
+  padding: 16px 0;
+}
+.page-header h1 {
+  margin: 0;
+}
+
 .page .content {
   max-width: 820px;
   padding: 0;

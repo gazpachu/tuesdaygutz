@@ -6,6 +6,4 @@ Tuesday is a writer and all-around creative communications professional with a w
 
 With experience in Asia and Europe, she has worked with cross-functional and cross-cultural teams in several international content projects. She is passionate about driving innovative and engaging content projects that help expand the brand's reach and create emotional and memorable connections with people.
 
-She has lived in Manila, Iloilo, Madrid, Barcelona, Alicante, Paris, London and Tokyo and speaks Filipino, English, Spanish French and some Japanese. She considers herself both Asian and European.
-
-For more info, please refer to her [curriculum vitae](/cv).
+She has lived in Manila, Iloilo, Madrid, Barcelona, Alicante, Paris, London and Tokyo and speaks Filipino, English, Spanish French and some Japanese. She considers herself both Asian and European. For more info, please refer to her [curriculum vitae](/cv).

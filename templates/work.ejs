@@ -3,14 +3,6 @@
   <head>
     <%- include('head'); %>
     <style>
-      .work-header {
-        background-color: var(--banner-background-color);
-        text-align: center;
-        padding: 16px 0;
-      }
-      .work-header h1 {
-        margin: 0;
-      }
       .work h2 {
         font-size: 20px;
         line-height: 30px;
@@ -74,8 +66,8 @@
   </head>
   <body>
     <%- include('header'); %>
-    <section class="work-header">
-      <h1>Selected Work</h1>
+    <section class="page-header">
+      <h1><%= frontmatter.title %></h1>
     </section>
     <div class="main-wrapper">
       <div class="work">

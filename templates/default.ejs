@@ -2,25 +2,13 @@
 <html lang="<%= lang %>">
   <head>
     <%- include('head'); %>
-    <style>
-      .two-columns-slide blockquote {
-        padding-top: 0;
-        padding-bottom: 0;
-      }
-      .banner-quote {
-        margin-bottom: 48px;
-      }
-    </style>
   </head>
   <body>
     <%- include('header'); %>
-    <% if (frontmatter.quote) { %>
-      <div class="banner-quote">
-        <div class="main-wrapper">
-          <%= frontmatter.quote %>
-          <span>- <%= frontmatter.quote_author %></span>
-        </div>
-      </div>
+    <% if (!frontmatter.cover) { %>
+      <section class="page-header">
+        <h1><%= frontmatter.title %></h1>
+      </section>
     <% } %>
     <% if (frontmatter.cover) { %>
       <picture>
@@ -31,7 +19,7 @@
     <% } %>
     <div class="main-wrapper page">
       <div class="content">
-        <% if (!frontmatter.shouldHideTitle) { %>
+        <% if (frontmatter.cover) { %>
           <h1><%= frontmatter.title %></h1>
         <% } %>
         <%- content %>

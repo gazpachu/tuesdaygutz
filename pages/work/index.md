@@ -1,6 +1,5 @@
 ---
-title: Work
+title: Selected Work
 template: work
-shouldHideTitle: true
 isListingPage: true
 ---
