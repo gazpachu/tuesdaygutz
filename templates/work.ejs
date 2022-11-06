@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="<%= lang %>">
+  <head>
+    <%- include('head'); %>
+    <style>
+      .work h1 {
+        padding: 0 20px;
+      }
+      .work h2 {
+        font-size: 20px;
+        line-height: 30px;
+        margin: 30px auto;
+        padding: 0 20px;
+        width: 100%;
+        max-width: 820px;
+      }
+      #listing-content {
+        padding: 0;
+        margin: 40px 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      }
+      #listing-content li {
+        list-style-type: none;
+        text-align: center;
+        height: 200px;
+        position: relative;
+        box-shadow: var(--card-box-shadow);
+        margin-bottom: 0;
+      }
+      #listing-content li:before,
+      #listing-content li:after {
+        content: "";
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        bottom: 20px;
+        left: 20px;
+        opacity: 0;
+        transition: all 0.35s, transform 0.35s;
+        pointer-events: none;
+        border-color: #000 !important;
+      }
+      #listing-content li:before {
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        transform: scale(0, 1);
+      }
+      #listing-content li:after {
+        transform: scale(1, 0);
+        border-right: 1px solid;
+        border-left: 1px solid;
+      }
+      #listing-content li a {
+        text-decoration: none;
+        color: black;
+        display: block;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      #listing-content li picture {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      #listing-content li .logo {
+        opacity: 1;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      #listing-content li .name {
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 25px;
+        white-space: pre-wrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-height: 60px;
+        line-height: 30px;
+        transition: transform 0.35s;
+        transform: translate3d(0, 0, 0);
+        opacity: 0;
+        position: relative;
+        color: #000;
+        margin-top: 0;
+        margin-bottom: 20px;
+      }
+      #listing-content li .meta {
+        transition: transform 0.35s;
+        transform: translate3d(0, 70px, 0);
+        opacity: 0;
+        position: relative;
+        color: #000;
+      }
+      #listing-content li .date {
+        margin-right: 5px;
+      }
+      #listing-content li.inverted:before,
+      #listing-content li.inverted:after {
+        border-color: white !important;
+      }
+      #listing-content li.inverted a,
+      #listing-content li.inverted .name,
+      #listing-content li.inverted .meta {
+        color: white;
+      }
+      #listing-content li.inverted .shortlisted .logo:after {
+        content: "";
+        position: absolute;
+        background: url(images/shortlisted.png) no-repeat;
+        top: 0;
+        right: 0;
+        width: 100px;
+        height: 100px;
+      }
+      #listing-content li.cover img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+      }
+      #listing-content li.hidden {
+        display: none;
+      }
+      #listing-content li:hover:before,
+      #listing-content li:hover:after {
+        transform: scale(1);
+        opacity: 1;
+      }
+      #listing-content li:hover .logo {
+        opacity: 0;
+        height: 0 !important;
+      }
+      #listing-content li:hover .name,
+      #listing-content li:hover .meta {
+        transform: translate3d(0, 40px, 0);
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <%- include('header'); %>
+    <div class="main-wrapper">
+      <div class="work">
+        <div class="content">
+          <%- content %>
+        </div>
+      </div>
+      <ul id="listing-content">
+        <% listingItems.forEach(function(item){ %>
+          <%- include('work-listing-item', { item }); %>
+        <% }); %>
+      </ul>
+    </div>
+    <%- include('footer'); %>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+https://derhuerst.github.io/svg-radar-chart/
+
+{
+	brand: 'Brand and comms.',
+	content: 'Content Marketing',
+	social: 'Social Media',
+	copy: 'Copywriting',
+	project: 'Project Management',
+  strategy: 'Content Strategy',
+  video: 'Video editing',
+  stakeholder: 'Stakeholder Management'
+}
+
+[
+	{
+		color: '#1AA0CD',
+		brand: .8,
+		content: .9,
+		social: .8,
+		copy: 1,
+		project: .8,
+    video: .6,
+    strategy: .8,
+    stakeholder: .8
+	}
+]
+
+
+{
+	brand: 'Brand Building',
+	sust: 'Sustainability',
+	design: 'Design',
+	tech: 'Technology',
+	arts: 'Arts and culture'
+}
+
+[
+	{
+		color: '#edc951',
+		brand: 1,
+		sust: .8,
+		design: .7,
+		tech: .8,
+		arts: 1
+	}
+]

@@ -79,8 +79,10 @@ async function build(folderOrFile) {
       async () => await fs.copy('pages/', 'public/', { filter: (f) => !f.startsWith('.') && !f.endsWith('.md') })
     );
 
-    console.log('Renaming news files...');
-    await renameFolders('public/news', dateAndSeparatorRegEx, '');
+    console.log('Renaming blog files...');
+    await renameFolders('public/blog', dateAndSeparatorRegEx, '');
+    console.log('Renaming work files...');
+    await renameFolders('public/work', dateAndSeparatorRegEx, '');
   }
 
   console.log('Copying static files...');

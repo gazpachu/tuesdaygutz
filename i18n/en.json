@@ -9,7 +9,20 @@
   "blog": {
     "listen_story": "Listen to this story",
     "subscribe": "Receive the stories by email.<br />No spam or ads. Promise! &#128077;<br />You can unsubscribe anytime",
-    "subscribe_button": "Subscribe to the news",
+    "subscribe_button": "Subscribe to the blog",
     "category": "Category"
+  },
+  "work_categories": {
+    "all": "All",
+    "featured": "Featured",
+    "web": "Website",
+    "web_app": "Web App",
+    "mobile": "Mobile App",
+    "desktop": "Desktop App",
+    "creative_tech": "Creative Tech",
+    "open_source": "Open Source"
+  },
+  "work": {
+    "tags": "Tags"
   }
 }

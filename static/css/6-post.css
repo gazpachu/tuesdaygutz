@@ -40,7 +40,6 @@
 .post .article {
   padding: 0;
   max-width: var(--post-content-max-width);
-  font-family: var(--content-font-family);
   line-height: 28px;
 }
 

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="<%= lang %>">
+  <head>
+    <%- include('head'); %>
+  </head>
+  <body>
+    <%- include('header'); %>
+    <% if (frontmatter.cover) { %>
+      <picture class="cover">
+        <source srcset="<%= imagePath.replace('.jpg', '.webp') %>" type="image/webp">
+        <source srcset="<%= imagePath %>" type="image/jpeg">
+        <img class="image" src="<%= imagePath %>" alt="<%= frontmatter.title %>" width="100%" height="500">
+      </picture>
+    <% } %>
+    <div class="main-wrapper page project">
+      <div class="content">
+        <div class="header">
+          <h1>
+            <%= frontmatter.title %>
+          </h1>
+          <time class="date"><%= formattedDate %></time>
+        </div>
+        <div class="body">
+          <%- content %>
+        </div>
+      </div>
+    </div>
+    <%- include('footer'); %>
+  </body>
+</html>
