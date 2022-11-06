@@ -1,4 +1,4 @@
-<li class="<%= item.frontmatter.categories %>" style="background-color: <%= item.frontmatter.color %>">
+<li>
   <a href="<%= item.slug %>" class="link">
     <picture>
       <source srcset="<%= item.slug %>/<%= item.frontmatter.cover.replace('.jpg', '.webp') %>" type="image/webp">
@@ -9,7 +9,7 @@
     <div class="project-content">
       <h2 class="name"><%= item.frontmatter.title %></h2>
       <p class="meta">
-        <span class="date"><%= new Date(item.date).getFullYear() %></span>
+        <span class="date"><%= new Date(item.date).getFullYear() %> • </span>
         <span class="country"><%= item.frontmatter.location %></span>
       </p>
     </div>
