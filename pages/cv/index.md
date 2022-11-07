@@ -203,31 +203,33 @@ I handled administrative duties, communication correspondence and customer suppo
 ### Web Writer at [Cafe Babel](http://Cafebabel.com)
 #### Dec 2008 – Jan 2009 ([Paris, France](https://www.google.com/maps/place/Paris))
 
-![](/work/cafebabel/images/cover.jpg)
+![](/work/cafe-babel/images/cover.jpg)
 
 I contributed articles for this European online magazine. [Sample 1](https://cafebabel.com/en/article/young-europeans-only-know-the-holocaust-through-war-movies-5ae00554f723b35a145de036/), [Sample 2](https://cafebabel.com/en/article/f1-premier-league-football-and-london-olympics-hit-by-crisis-5ae0054af723b35a145ddd9b/)
 
 ### Assistant Teacher (Volunteer) for a special education class
 #### 2008 ([Manila, Philippines](https://www.google.com/maps/place/Manila))
+<div class="separator"></div>
 
 I prepared class lessons for special education at Odelco Elementary School, Manila.
 
 ### Online Citizen reporter for [Ohmynews.com](http://Ohmynews.com)
 #### Jun 2006 – Oct 2008
 
-![](/work/ohmynews/images/cover.jpg)
+![](/work/oh-my-news/images/cover.jpg)
 
 I wrote articles about non-profit organizations and social institutions that advocate social change. I was chosen as a delegate of the Philippines in the international citizen reporters conference in Seoul, Korea in July 2007. [Samples of work](http://english.ohmynews.com/english/eng_article_diff.asp?writer_id=tuesday74&at_code=356588)
 
 ### Web writer / Blogger
 #### Aug 2006 – Jun 2007
 
-![](/work/saveguimaras/images/cover.jpg)
+![](/work/save-guimaras/images/cover.jpg)
 
 I launched a successful blog called [Saveguimaras.com](http://saveguimaras.herokuapp.com/) in response to the oil spill tragedy in Guimaras, Philippines – This became one of the premiere informative sites regarding the oil spill.
 
 ### Web writer / Blogger
 #### Feb 2004 – Jun 2005
+<div class="separator"></div>
 
 - I co-founded a web portal about NGO’s and Social Organisations called [Lasolidaridad.com](http://lasolidaridad.herokuapp.com/)
 - I helped promote non-profit organisations for [Techsoup.org](http://techsoup.org) using the [Second Life](http://secondlife.com/) online tool.
@@ -249,16 +251,19 @@ I was a regular contributing writer for a monthly trade magazine which caters to
 ### Scriptwriter for [Allmedia.com.ph](http://www.allmedia.com.ph/)
 #### Jan 2001 – Jun 2001 ([Manila, Philippines](https://www.google.com/maps/place/Manila))
 <div class="separator"></div>
+
 - I conceptualized and wrote scripts for VTR and corporate events for companies like Sunlife, Johnson and Johnson, Generali Insurance, etc.
 
 ### Media Bureau Writer for the Presidential Campaign of [Renato de Villa](http://en.wikipedia.org/wiki/Renato_de_Villa)
 #### Jun 1998 – Dec 1998 ([Ilo-ilo, Philippines](https://www.google.com/maps/place/Ilo-ilo))
 <div class="separator"></div>
+
 - I wrote presidential campaign materials, liaised with the local press and assisted with event organisation.
 
 ### Editorial Assistant / Writer, Lifestyle section at [Manila Chronicle Newspaper](https://www.facebook.com/group.php?gid=57361971241)
 #### Mar 1997 – Jun 1997 ([Manila, Philippines](https://www.google.com/maps/place/Manila))
 <div class="separator"></div>
+
 - I handled editorial administrative duties, proofreading, writing, research and interviews for the Lifestyle and Travel Section of the newspaper.
 
 ## Education
