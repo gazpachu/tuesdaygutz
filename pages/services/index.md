@@ -2,8 +2,13 @@
 title: Services
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt maximus turpis, sit amet hendrerit felis ullamcorper et. Donec maximus turpis eu justo molestie rhoncus. Aliquam et mi nisi. Vivamus volutpat viverra justo, rhoncus efficitur sem pharetra eu. Phasellus in fermentum massa, ut luctus velit. Nulla facilisi. In suscipit, mauris vel blandit porta, nisl tellus bibendum quam, eget molestie leo arcu sed nunc. Phasellus at orci tortor. Nunc ut erat ut lacus bibendum vulputate. Nam accumsan tristique eleifend. Praesent libero nunc, eleifend et risus quis, mattis tincidunt lacus. Donec hendrerit consectetur malesuada. Fusce vulputate porttitor tortor, eget dictum nunc volutpat luctus. Morbi enim nunc, blandit vitae lorem id, mattis tincidunt eros.
+Brands can stand out from the crowd by telling authentic stories that resonate with their audience. I blend storytelling with data-driven insights. 
 
-In efficitur, orci id blandit posuere, nibh diam aliquam diam, elementum scelerisque magna nisl eget diam. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam consectetur facilisis enim, et eleifend nisl euismod ac. Phasellus semper mauris sit amet nisi molestie bibendum. Fusce non velit a diam iaculis cursus. Duis consectetur, lacus eu semper finibus, est lectus viverra sapien, ut mattis sem enim ut mi.
 
-Vivamus ullamcorper quis dui interdum dapibus. Morbi a leo aliquam, mattis eros ultricies, vulputate lectus. Aenean bibendum lectus at lacus tincidunt rhoncus. Maecenas vitae magna et risus vehicula tempus. Quisque vitae posuere risus. Donec aliquam nulla sit amet nisi scelerisque pellentesque. Cras ultrices in arcu ac fringilla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+I specialise in the following areas: 
+-  Content standards and guidelines development
+-  Content management including strategy ideation and managing editorial calendars 
+-  Writing web articles, blogs, playbooks aligned with SEO guidelines 
+-  Editing and proofreading for accuracy and adherence to style guides 
+-  Interviewing clients for feature stories
+-  Social media content creation
