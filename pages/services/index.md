@@ -12,3 +12,6 @@ I specialise in the following areas:
 -  Editing and proofreading for accuracy and adherence to style guides 
 -  Interviewing clients for feature stories
 -  Social media content creation
+-  
+
+Let's tell meaningful stories!
