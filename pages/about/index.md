@@ -2,8 +2,8 @@
 title: About
 ---
 
-Tuesday is a writer and all-around creative communications professional with a wealth of experience across content creation and strategy, social media, digital marketing and video production/editing. She has worked in numerous international organisations like [Tokyo 2020 Olympics](/work/tokyo-2020), [London 2012 Olympics (Cultural Olympiad)](/work/london-2012), [Unilever HQ London](/work/unilever) and the prestigious sports event, [Volvo Ocean Race](/work/volvo-ocean-race) in Spain.
+I specialize in brand building through compelling storytelling. I have a wealth of experience across content creation and strategy, social media, digital marketing and video production/editing. As a writer/editor and content strategist, I have worked in range of industries such as FMCG for [Unilever HQ London](/work/unilever), tech, and sports including stints in international organisations like [Tokyo 2020 Olympics](/work/tokyo-2020), [London 2012 Olympics (Cultural Olympiad)](/work/london-2012), and the prestigious sports event, [Volvo Ocean Race](/work/volvo-ocean-race) in Spain.
 
-With experience in Asia and Europe, she has worked with cross-functional and cross-cultural teams in several international content projects. She is passionate about driving innovative and engaging content projects that help expand the brand's reach and create emotional and memorable connections with people.
+As a seasoned communications professional with experience in Asia and Europe, I help drive innovative and engaging content projects that boosts brand visiblity, engagement and ROI for B2B and B2C clients. 
 
-She has lived in Manila, Iloilo, Madrid, Barcelona, Alicante, Paris, London and Tokyo and speaks Filipino, English, Spanish French and some Japanese. She considers herself both Asian and European. For more info, please refer to her [curriculum vitae](/cv).
+I love working with a diverse and cross-functional teams. I have lived in Manila, Madrid, Barcelona, Alicante, London and Tokyo and speak Filipino, English, Spanish, French (intermediate) and some Japanese. For more info, please refer to my [curriculum vitae](/cv).
