@@ -23,4 +23,4 @@ template: project
   <a class="btn" href="https://tablecheck.com/en/blog" target="_blank">TableCheck's Blog</a>
 </p>
 
-Work review pending to be uploaded.
+T

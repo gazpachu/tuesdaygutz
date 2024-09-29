@@ -1,5 +1,5 @@
 ---
-title: Selected Work
+title: TableCheck
 template: work
 isListingPage: true
 ---
