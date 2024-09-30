@@ -75,18 +75,6 @@
     margin-right: 0;
   }
 
-  #whatsapp-widget {
-    bottom: 14px;
-    right: 16px;
-    opacity: 1;
-    transition: opacity 0.5s ease 0s;
-    box-sizing: border-box;
-    direction: ltr;
-    text-align: right;
-    position: fixed;
-    z-index: 1;
-  }
-
   .widget-wrapper {
     display: flex;
     margin: 7px;
