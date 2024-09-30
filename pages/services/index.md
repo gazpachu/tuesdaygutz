@@ -2,10 +2,11 @@
 title: Services
 ---
 
-Brands can stand out from the crowd by telling authentic stories that resonate with their audience. I blend storytelling with data-driven insights to create compelling and engaging content that highlights the brand's purpose and in a deeper way, build a long-term narrative that keeps them top of mind with customers and drives results.
+Think of me as your biggest cheerleader – championing your brand's purpose and vision. I blend storytelling with data-driven insights to create compelling and engaging content to keep your brand at the top of mind with your customers.
 
 
 I specialise in the following areas: 
+–  Bespoke content strategies
 -  Content standards and guidelines development
 -  Content management including strategy ideation and managing editorial calendars 
 -  Writing web articles, blogs, playbooks aligned with SEO guidelines 
@@ -13,6 +14,9 @@ I specialise in the following areas:
 -  Interviewing clients for feature stories
 -  Social media content creation
 -  Management of freelance writers 
+-  CEO communications and personal branding
   
+
+
 
 Let's tell meaningful stories!

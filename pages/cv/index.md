@@ -80,11 +80,12 @@ Creative Marketing and Communications Professional with more than 20 years of in
 
 [![](/work/tablecheck/images/cover.jpg)](/work/tablecheck)
 
-- Responsible for writing and editing SEO optimised content on the new global website
-- Collaborates with designers, developers, and product managers in releasing the website and in product marketing campaigns
-- Manages the global content calendar on the website and social media channels for generating brand awareness and business leads
-- Creates and advises on the creation of thought leadership pieces that positions TableCheck as a global leader in restaurant tech
-- Recruites freelance writers and editors to work on high-quality blog pieces
+- Led the global content strategy for the TableCheck website. 
+– Responsible for curating and editing SEO-optimised content and product feature pages
+- Collaborated with designers, developers, and product managers 
+- Managedthe global content calendar on the website and social media channels for generating brand awareness and business leads
+- Created thought leadership pieces that positions TableCheck as a global leader in restaurant tech
+- Recruited freelance writers and editors to work on high-quality blog pieces
 
 [Read more and see photos...](/work/tablecheck)
 
@@ -98,7 +99,7 @@ Creative Marketing and Communications Professional with more than 20 years of in
 - Managed content creation process and editorial schedule for the global website (+200 million unique visitors)
 - Wrote top stories and produced content series
 - Interviewed Olympic and Paralympic athletes
-- Ensured that all EN articles were optimised for search
+- Ensured that all English articles were optimised for search
 - Managed a team of 5 global lead editors (EN, ES, FR, CH)
 - Main person in charge to liaise with functional area heads/JP team
 - Liaised with the IOC, IPC, International Federation and NOCs (National Olympic Committees)
