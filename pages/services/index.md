@@ -6,6 +6,7 @@ Think of me as your biggest cheerleader – championing your brand's purpose and
 
 
 I specialise in the following areas: 
+
 –  Bespoke content strategies
 -  Content standards and guidelines development
 -  Content management including strategy ideation and managing editorial calendars 

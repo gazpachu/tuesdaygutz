@@ -29,7 +29,7 @@ Billions of people tuned into this global event and the website attracted more t
 
 ## The rescheduled Games
 
-As the Games have been delayed by a year - which is unprecedented in the history of the Games - we had an opportunity to produce more in-depth pieces and interview features across 55 sports (33 Olympic sports, 22 Paralympic sports).
+As the Games have been delayed by a year - which is unprecedented in the history of the Olympics and Paralympics - we had an opportunity to produce more in-depth pieces and interview features across 55 sports (33 Olympic sports, 22 Paralympic sports).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kR9JPSU-g8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
