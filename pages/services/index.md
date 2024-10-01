@@ -7,7 +7,7 @@ Think of me as your biggest cheerleader – championing your brand's purpose and
 
 I specialise in the following areas: 
 
-–  Bespoke content strategies
+-  Bespoke content strategies
 -  Content standards and guidelines development
 -  Content management including strategy ideation and managing editorial calendars 
 -  Writing web articles, blogs, playbooks aligned with SEO guidelines 
@@ -16,6 +16,7 @@ I specialise in the following areas:
 -  Social media content creation
 -  Management of freelance writers 
 -  CEO communications and personal branding
+-  Ghostwriting
   
 
 
