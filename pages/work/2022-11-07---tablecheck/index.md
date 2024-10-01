@@ -20,7 +20,7 @@ template: project
 }
 </style>
 <p style="text-align: center">
-  <a class="btn" href="https://tablecheck.com/en/blog" target="_blank">TableCheck's Blog</a>
+  <a class="btn" href="https://tablecheck.com/en/blog" target="_blank">TableCheck Blog</a>
 </p>
 
 TableCheck is a tech start up company with over 10,000 restaurants, hotel and enterprise F&B clients under its portfolio. Founded in Japan, it has expanded its services in international markets like China, Singapore, Thailand, Vietnam, South Korea and the United Arab Emirates. 
