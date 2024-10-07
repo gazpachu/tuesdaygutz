@@ -2,6 +2,7 @@
 title: Magic Spell
 cover: images/cover.jpg
 location: Philippines
+dates: Jun 2001 - Sep 2002
 template: project
 ---
 

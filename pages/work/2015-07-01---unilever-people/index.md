@@ -2,6 +2,7 @@
 title: Unilever People
 cover: images/cover.jpg
 location: UK
+dates: Jul 2015 - Jun 2016
 template: project
 ---
 

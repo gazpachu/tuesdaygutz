@@ -2,6 +2,7 @@
 title: Volvo Ocean Race
 cover: images/cover.jpg
 location: Spain
+dates: Nov 2016 - Jul 2018
 template: project
 ---
 

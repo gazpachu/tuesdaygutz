@@ -2,6 +2,7 @@
 title: Tokyo 2020 Olympic and Paralympic Games
 cover: images/cover.jpg
 location: Japan
+dates: Jun 2019 - Oct 2021
 template: project
 ---
 

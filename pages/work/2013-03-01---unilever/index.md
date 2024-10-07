@@ -2,6 +2,7 @@
 title: Unilever
 cover: images/cover.jpg
 location: UK
+dates: Mar 2013 - Jul 2015
 template: project
 ---
 

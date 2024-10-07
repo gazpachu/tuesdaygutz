@@ -2,6 +2,7 @@
 title: Royal Opera House
 cover: images/cover.jpg
 location: UK
+dates: Jul 2011
 template: project
 ---
 

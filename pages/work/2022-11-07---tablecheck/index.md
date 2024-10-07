@@ -2,6 +2,7 @@
 title: TableCheck
 cover: images/cover.jpg
 location: Japan and Spain
+dates: Nov 2021 - Oct 2024
 template: project
 ---
 

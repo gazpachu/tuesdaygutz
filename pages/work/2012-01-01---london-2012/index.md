@@ -2,6 +2,7 @@
 title: London 2012 Cultural Olympiad
 cover: images/cover.jpg
 location: UK
+dates: Jan 2012 - Oct 2012
 template: project
 ---
 

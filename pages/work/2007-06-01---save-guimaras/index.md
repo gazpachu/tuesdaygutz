@@ -2,6 +2,7 @@
 title: Save Guimaras
 cover: images/cover.jpg
 location: International
+dates: 2004 - 2012
 template: project
 ---
 

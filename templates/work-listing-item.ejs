@@ -9,8 +9,8 @@
     <div class="project-content">
       <h2 class="name"><%= item.frontmatter.title %></h2>
       <p class="meta">
-        <span class="date"><%= new Date(item.date).getFullYear() %> • </span>
-        <span class="country"><%= item.frontmatter.location %></span>
+        <div class="date"><%= item.frontmatter.dates %></div>
+        <div class="country"><%= item.frontmatter.location %></div>
       </p>
     </div>
   </a>

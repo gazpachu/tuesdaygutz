@@ -2,6 +2,7 @@
 title: Food and beverage
 cover: images/cover.jpg
 location: Philippines
+dates: Jan 2001 - Jun 2001
 template: project
 ---
 

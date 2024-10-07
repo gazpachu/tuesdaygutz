@@ -41,6 +41,11 @@
   line-height: 28px;
 }
 
+.project-content .date {
+  font-size: 14px;
+  color: var(--muted-color);
+}
+
 @media screen and (min-width: 651px) {
   .project .body {
     line-height: 32px;

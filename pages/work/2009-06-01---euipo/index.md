@@ -1,7 +1,8 @@
 ---
-title: European Union Intellectual Property Office
+title: EU Intellectual Property Office
 cover: images/cover.jpg
 location: Spain
+dates: Jun 2008 - Jun 2009
 template: project
 ---
 
