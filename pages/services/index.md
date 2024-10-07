@@ -5,7 +5,7 @@ title: Services
 Think of me as your biggest cheerleader – championing your brand's purpose and vision. I blend storytelling with data-driven insights to create compelling and engaging content to keep your brand at the top of mind with your customers.
 
 
-##I specialise in the following areas:
+I specialise in the following areas:
 
 -  Bespoke content strategies
 -  Content standards and guidelines development
